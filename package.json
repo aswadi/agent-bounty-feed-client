@@ -1,13 +1,21 @@
 {
   "name": "agent-bounty-feed-client",
-  "version": "1.0.0",
-  "description": "Minimal zero-dependency MCP & HTTP client for Agent Bounty Feed (/mcp, /earn-now, feed.json)",
+  "version": "1.1.0",
+  "description": "Zero-dependency Node.js 18+ CLI & programmatic client for Agent Bounty Feed (Streamable HTTP MCP tools + /earn-now + feed.json)",
   "main": "index.js",
   "bin": {
     "abf-client": "./index.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node --test test.js"
   },
+  "keywords": [
+    "mcp",
+    "bounty",
+    "ai-agent",
+    "streamable-http",
+    "agent-bounty-feed"
+  ],
   "license": "MIT"
 }
