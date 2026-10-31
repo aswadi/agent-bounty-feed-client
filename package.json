@@ -1,0 +1,13 @@
+{
+  "name": "agent-bounty-feed-client",
+  "version": "1.0.0",
+  "description": "Minimal zero-dependency MCP & HTTP client for Agent Bounty Feed (/mcp, /earn-now, feed.json)",
+  "main": "index.js",
+  "bin": {
+    "abf-client": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT"
+}
